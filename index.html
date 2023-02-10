@@ -1,24 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Happy birthday! My baby</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body class = "bg_img">
- <p class = 'texts' id = 'firstline'>Happy Birthday!</p>
-<p class = 'texts'>My Valentines</p>
-<a href="https://youtu.be/GHWIeFCAOoA"><p class = 'texts' id="small-texts">Click Here</p></a>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
 
-    <!-- <h1>Happy Birthday</h1>
-    <p>This is a simple website for you. Please click the links below：</p>
-    <p style="text-align: center;">
-    <a href="https://youtu.be/GHWIeFCAOoA">If you have VPN</a>
-    </p>
-    <p style="text-align: center;">
-    <a href="https://b23.tv/7aRgaOG">If you don't</a>
-    </p>
-    <p>我本世上无定舟，见君方得一湾泊</p>
-    <p>今昔万里征远道，宿夕不忘是相思</p>> -->
-  </body>
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("bg_img.jpg");
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.caption span.border {
+  background-color: #ffffff;
+  color: #e53fb9;
+  padding: 18px;
+  font-size: 35px;
+  letter-spacing: 10px;
+  border-radius: 25px;
+  font-family: 'Wawati TC';
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border" style = "font-size: 40px;">HAPPY BIRTHDAY!</span>
+    <br><br>
+    <span class="border"> MY VALENTINES♥ </span>
+    <br><br>
+    <a href="https://b23.tv/7aRgaOG"><span class="border"> CLICK HERE → </span></a>
+  </div>
+</div>
+
+</body>
 </html>
