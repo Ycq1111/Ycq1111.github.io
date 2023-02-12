@@ -1,6 +1,4 @@
-@media screen and (min-width: 400px) {
-
-  @font-face {
+@font-face {
     font-family: "YCQ Font";
     src: url("Wawati.otf");
 }
@@ -52,7 +50,6 @@ h3 {
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: #111;
-}
 }
 
 @media screen and (min-width: 800px) {
