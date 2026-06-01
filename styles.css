@@ -87,6 +87,65 @@ h1 {
   text-wrap: pretty;
 }
 
+.notes {
+  margin-top: 3rem;
+  border-top: 1px solid var(--line);
+}
+
+.note {
+  padding: 1.25rem 0 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.note summary {
+  cursor: pointer;
+  list-style: none;
+  font-family: "Helvetica Neue", "PingFang SC", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.note summary::-webkit-details-marker {
+  display: none;
+}
+
+.note summary::after {
+  content: "+";
+  float: right;
+  color: var(--muted);
+}
+
+.note[open] summary::after {
+  content: "-";
+}
+
+.note__body {
+  padding: 1rem 0 1.4rem;
+}
+
+.note__body p,
+.note__body ol {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+.note__body p + p,
+.note__body p + ol,
+.note__body ol + p {
+  margin-top: 0.9rem;
+}
+
+.note__body ol {
+  padding-left: 1.4rem;
+}
+
+.note__body li + li {
+  margin-top: 0.35rem;
+}
+
 @media (max-width: 640px) {
   .hero {
     padding: 3.25rem 1.1rem 3rem;
