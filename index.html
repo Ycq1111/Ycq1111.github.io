@@ -3,48 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="延续主义，一个关于时间、记忆与创造持续生长的概念首页。">
-  <link rel="icon" type="image/png" href="candle.png">
+  <meta name="description" content="延续主义">
   <link rel="stylesheet" href="styles.css">
   <title>延续主义</title>
 </head>
 <body>
-  <main class="hero">
-    <div class="hero__backdrop"></div>
-    <section class="hero__content">
-      <p class="eyebrow">Continuism</p>
-      <h1>延续主义</h1>
-      <p class="intro">A value orientation for the long-term survival and continued improvement of human civilization.</p>
-      <div class="definition-card">
-        <p class="definition-label">Definition</p>
-        <p class="definition-text">
-          是以人类文明长期存续和持续改善为目的的价值观，其不以当代多数意志、短期福利或局部正义为准，
-          而以提升是否人类整体在长时间尺度上的生存概率和发展上限为标准。其方法论在于保存和积累人类发展中出现的有利因素。
-        </p>
-      </div>
+  <div class="site-shell">
+    <header class="site-header" id="top">
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html" aria-current="page">首页</a>
+        <a href="articles.html">文章</a>
+      </nav>
 
-      <section class="notes" aria-label="Supplementary entries">
-        <details class="note" open>
-          <summary>背景起源</summary>
-          <div class="note__body">
-            <p>
-              马克思主义哲学中认为历史是螺旋上升的，但这个论断有一些前提。
-            </p>
-            <ol>
-              <li>人类文明的物质基础不会在完成其历史使命前被彻底消耗。</li>
-              <li>科学技术被视为无发展上限或无窗口期。</li>
-            </ol>
-            <p>
-              在地球是个封闭系统的前提下，文明可能不是一个无限试错的系统，可能会因为资源耗尽、
-              社会体系不能突破技术锁定、复杂性过载等原因而整体毁灭。
-            </p>
-            <p>
-              一些古文明的消亡，比如玛雅文明，就是一个值得警惕的例子。
-            </p>
+      <div class="site-brand">
+        <p class="site-kicker">Continuism</p>
+        <h1>延续主义</h1>
+        <p class="site-tagline">A value orientation for the long-term survival and continued improvement of human civilization.</p>
+      </div>
+    </header>
+
+    <main class="page" id="entries">
+      <section class="content-column" aria-label="Main entries">
+        <article class="entry entry--featured" id="definition">
+          <div class="entry-meta">
+            <span>核心定义</span>
           </div>
-        </details>
+          <p>
+            是以人类文明长期存续和持续改善为目的的价值观，其不以当代多数意志、短期福利或局部正义为准，
+            而以提升是否人类整体在长时间尺度上的生存概率和发展上限为标准。其方法论在于保存和积累人类发展中出现的有利因素。
+          </p>
+        </article>
+
+        <article class="entry" id="background">
+          <div class="entry-meta">
+            <span>背景起源</span>
+          </div>
+          <p>
+            马克思主义哲学中认为历史是螺旋上升的，但这个论断有一些前提：第一，人类文明的物质基础不会在完成其历史使命前被彻底消耗；
+            第二，科学技术被视为无发展上限或无窗口期。
+          </p>
+          <p>
+            在地球是个封闭系统的前提下，文明可能不是一个无限试错的系统，可能会因为资源耗尽、社会体系不能突破技术锁定、
+            复杂性过载等原因而整体毁灭。一些古文明的消亡，比如玛雅文明，就是一个值得警惕的例子。
+          </p>
+        </article>
+
       </section>
-    </section>
-  </main>
+    </main>
+
+    <footer class="site-footer">
+      <p>Copyright © 2026 延续主义 YCQ</p>
+      <a href="#top">返回顶部</a>
+    </footer>
+  </div>
 </body>
 </html>
