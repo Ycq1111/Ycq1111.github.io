@@ -133,6 +133,35 @@ h1 {
   color: #242424;
 }
 
+.post-item h2 {
+  margin-bottom: 0.2rem;
+}
+
+.read-more,
+.back-link a {
+  display: inline-block;
+  margin-top: 1rem;
+  font-family: "Helvetica Neue", "PingFang SC", sans-serif;
+  font-size: 0.95rem;
+}
+
+.article-entry {
+  padding-bottom: 2.6rem;
+}
+
+.article-entry h2 {
+  max-width: 18ch;
+}
+
+.article-entry p {
+  line-height: 1.95;
+  text-wrap: pretty;
+}
+
+.back-link {
+  margin-top: 1.4rem;
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
