@@ -11,6 +11,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ycq1111.github.io/discussions.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://ycq1111.github.io/civilization-spiral-rise.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
